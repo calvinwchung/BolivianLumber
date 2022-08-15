@@ -8,6 +8,7 @@ import {
     NavItem,
 } from 'reactstrap';
 import { NavLink, useLocation } from 'react-router-dom';
+import '../components/Header.css';
 
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);

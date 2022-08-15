@@ -1,5 +1,6 @@
 import TajiboImg from '../app/assets/tajibo.png';
 import { Col, Row, Container } from 'reactstrap';
+import '../components/WoodList.css';
 
 const Tajibo = () => {
     return (

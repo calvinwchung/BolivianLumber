@@ -1,5 +1,6 @@
 import CutaImg from '../app/assets/cuta.png';
 import { Col, Row, Container } from 'reactstrap';
+import '../components/WoodList.css'
 
 const Cuta = () => {
     return (

@@ -1,4 +1,4 @@
-import { Col, Row, Container } from 'reactstrap';
+import { Container } from 'reactstrap';
 import Cuta from '../app/assets/cuta.png';
 import Morado from '../app/assets/morado.png';
 import Pauqio from '../app/assets/pauqio.png';
@@ -14,7 +14,6 @@ const InventoryPage = () => {
             <InventoryOne />
             <InventoryForm />
             <InventoryBg />
-            
         </Container>
     )
 };

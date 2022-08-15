@@ -23,37 +23,10 @@ h2 {
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.row-content {
-  padding: 50px 0;
-  border-bottom: 1px ridge;
-  min-height: 200px;
-}
-
 .site-footer {
   background-image: linear-gradient(#cec8ff, white);
   padding: 20px 0;
   margin-top: 2rem;
-}
-
-.navbar-brand {
-  max-width: 4rem;
-  margin-right: 2rem;
-}
-
-.navbar-dark {
-  /* background: transparent; */
-  opacity: .6;
-  margin-bottom: -15rem;
-  min-height: 4rem;
-}
-
-.navbar {
-  /* background: transparent; */
-}
-
-.navbar.active {
-  background: linear-gradient(to right, black, black, black);
-  font-size: 20px;
 }
 
 .page-exit {
@@ -65,32 +38,8 @@ h2 {
   transition: 300ms ease-in;
 }
 
-.navBarNav {
-  text-align: center;
-  margin: auto;
-  z-index: 1000;
-  transition: 0.6s;
-  /* position: fixed; */
-}
-
-.navBarItems {
-  margin-left: 15px;
-  margin-right: 15px;
-  letter-spacing: 4px;
-}
-
-.navbar {
-  position: fixed;
-  top: 0;
-}
-
 .forms {
   padding: 120px;  
-}
-
-.formBody {
-  text-align: center;
-  margin: auto; 
 }
 
 .contactText {
@@ -98,46 +47,8 @@ h2 {
   letter-spacing: 10px;
 }
 
-.contactSubmitBtn {
-  background-color: black !important;
-  letter-spacing: 3px;
-}
-  
-.errorMes {
-  text-align: left;
-  margin-left: 15px;
-  letter-spacing: 4px;
-}
-
-.formText {
-  letter-spacing: 3px;
-}
-
 .bgImage {
   width: 5000px;
-}
-
-.paraImage {
-  opacity: .85;
-}
-
-.paraText {
-  margin: auto;
-  margin-top: 35%;
-  background-color: black;
-  opacity: .6;
-  color: white;
-  letter-spacing: 4px;
-  font-size: 20px;
-  width: 15%;
-  padding: 1rem;
-  text-decoration: none;
-  color: inherit;
-}
-
-.paraLink {
-  text-decoration: none;
-  color: white;
 }
 
 .navbar2 {
@@ -155,61 +66,6 @@ h2 {
   height: 100vh;
 }
 
-.content {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  height: 100vh;
-  width: 100%;
-}
-
-.content span.img-txt {
-  background-color: black;
-  opacity: .6;
-  color: white;
-  padding: 1rem;
-  font-size: 20px;
-  letter-spacing: 4px;
-  width: 15%;
-  text-align: center;
-}
-
-.text-title {
-  letter-spacing: 4px;
-  text-align: center;
-}
-
-.text-box {
-  text-align: center;
-  padding: 3rem 1rem;
-  text-align: justify;
-  padding-left: 10rem;
-  padding-right: 10rem;
-  letter-spacing: 2px;
-}
-
-.img-txtt {
-  opacity: .8;
-  color: white;
-  padding: 1rem;
-  font-size: 50px;
-  letter-spacing: 8px;
-  width: 80%;
-  margin-top: 15%;
-}
-
-.video {
-  height: 700px;
-  margin-left: 2%;
-  margin-top: 2%;
-  text-align: center;
-}
-
-.woodList {
-  width: 2300px;
-}
-
 .tableHeader {
   font-size: 20px;
   letter-spacing: 3px;
@@ -217,46 +73,6 @@ h2 {
   background-color: black;
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
-  color: white;
-  opacity: .7;
-}
-
-.tableHeader1 {
-  font-size: 40px;
-  color: black;
-  letter-spacing: 7px;
-  opacity: .7;
-}
-
-.wood {
-  text-align: left;
-  background-color: aliceblue;
-  letter-spacing: 2px;
-  font-style: italic;
-}
-
-.wood1 {
-  text-align: left;
-  letter-spacing: 2px;
-  font-style: italic;
-}
-
-/* .inventoryPic {
-  height: 500px;
-  margin-left: 15%;
-} */
-
-.woodImages {
-  margin-top: 20%;
-  text-align: center;
-}
-
-.woodName {
-  font-size: 20px;
-  letter-spacing: 3px;
-  text-align: left;
-  background-color: black;
-  
   color: white;
   opacity: .7;
 }

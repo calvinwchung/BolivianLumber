@@ -1,5 +1,6 @@
 import MoradoImg from '../app/assets/morado.png';
 import { Col, Row, Container } from 'reactstrap';
+import '../components/WoodList.css';
 
 const Morado = () => {
     return (

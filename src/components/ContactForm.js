@@ -3,6 +3,7 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateContactForm }  from '../utils/validateContactForm';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import '../components/ContactForm.css'
 
 const ContactForm = () => {
     const handleSubmitReset = (values, { resetForm }) => {
@@ -10,8 +11,6 @@ const ContactForm = () => {
         console.log('in JSON format:', JSON.stringify(values));
         resetForm();
     }
-
-
 
     return (
         <Formik            

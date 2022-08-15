@@ -1,4 +1,6 @@
-const TextBox3 = () => {
+import '../components/AboutTextBox.css'
+
+const AboutTextBox3 = () => {
     return (
         <div className="text-box">
             <h3 className="text-title">LOCATION</h3>
@@ -9,4 +11,4 @@ const TextBox3 = () => {
     );
 }
 
-export default TextBox3;
+export default AboutTextBox3;

@@ -1,5 +1,6 @@
 import PauqioImg from '../app/assets/pauqio.png';
 import { Col, Row, Container } from 'reactstrap';
+import '../components/WoodList.css';
 
 const Pauqio = () => {
     return (

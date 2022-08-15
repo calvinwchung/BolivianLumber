@@ -1,0 +1,31 @@
+.woodList {
+  width: 2300px;
+}
+
+.woodImages {
+  margin-top: 20%;
+  text-align: center;
+}
+
+.wood {
+  text-align: left;
+  background-color: aliceblue;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.wood1 {
+  text-align: left;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.woodName {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  background-color: black;
+  
+  color: white;
+  opacity: .7;
+}

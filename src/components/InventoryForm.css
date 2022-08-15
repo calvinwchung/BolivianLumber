@@ -1,0 +1,39 @@
+.woodList {
+  width: 2300px;
+} 
+
+.formBody {
+  text-align: center;
+  margin: auto; 
+} 
+
+.tableHeader {
+  font-size: 20px;
+  letter-spacing: 3px;
+  text-align: left;
+  background-color: black;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  color: white;
+  opacity: .7;
+}
+
+.tableHeader1 {
+  font-size: 40px;
+  color: black;
+  letter-spacing: 7px;
+  opacity: .7;
+} 
+
+.wood {
+  text-align: left;
+  background-color: aliceblue;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.wood1 {
+  text-align: left;
+  letter-spacing: 2px;
+  font-style: italic;
+} 

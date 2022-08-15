@@ -1,0 +1,14 @@
+.text-title {
+  letter-spacing: 4px;
+  text-align: center;
+  height: 100px;
+} 
+
+.text-boxx {
+  text-align: center;
+  padding: 3rem 1rem;
+  text-align: justify;
+  padding-left: 10rem;
+  padding-right: 10rem;
+  letter-spacing: 2px;
+}

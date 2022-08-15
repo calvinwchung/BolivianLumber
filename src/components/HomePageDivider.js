@@ -1,4 +1,6 @@
-const TextBox4 = () => {
+import '../components/HomePageDivider.css';
+
+const HomePageDivider = () => {
     return (
         <div className="text-boxx">
             <h3 className="text-title">|||</h3>
@@ -8,4 +10,4 @@ const TextBox4 = () => {
     );
 }
 
-export default TextBox4;
+export default HomePageDivider;

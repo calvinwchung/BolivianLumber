@@ -1,0 +1,22 @@
+.paraImage {
+  opacity: .85;
+}
+
+.paraText {
+  margin: auto;
+  margin-top: 35%;
+  background-color: black;
+  opacity: .6;
+  color: white;
+  letter-spacing: 4px;
+  font-size: 20px;
+  width: 15%;
+  padding: 1rem;
+  text-decoration: none;
+  color: inherit;
+}
+
+.paraLink {
+  text-decoration: none;
+  color: white;
+}

@@ -1,5 +1,6 @@
 import TararaImg from '../app/assets/tarara.png';
 import { Col, Row, Container } from 'reactstrap';
+import '../components/WoodList.css';
 
 const Tarara = () => {
     return (

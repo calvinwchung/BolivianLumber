@@ -1,20 +1,20 @@
-import AboutOne from "../components/AboutOne";
-import AboutTwo from "../components/AboutTwo";
-import AboutThree from "../components/AboutThree";
-import TextBox from "../components/TextBox";
-import TextBox2 from "../components/TextBox2";
-import TextBox3 from "../components/TextBox3";
+import AboutPageImage from "../components/AboutPageImage";
+import AboutTextBox1 from "../components/AboutTextBox1";
+import AboutTextBox2 from "../components/AboutTextBox2";
+import AboutTextBox3 from "../components/AboutTextBox3";
+import Wood1 from '../app/assets/wood1.png';
+import Wood2 from '../app/assets/wood2.png';
+import Wood3 from '../app/assets/wood3.png';
 
 const AboutPage = () => {
-    const content = 'content can go here or come from an API or come from another component as a prop';
     return (
         <div>
-            <AboutOne />
-            <TextBox />
-            <AboutTwo />
-            <TextBox2 />
-            <AboutThree />
-            <TextBox3 />
+            <AboutPageImage picture={Wood1} name='OUR STORY' />
+            <AboutTextBox1 />
+            <AboutPageImage picture={Wood2} name='OUR SERVICE' />
+            <AboutTextBox2 />
+            <AboutPageImage picture={Wood3} name='LOCATION' />
+            <AboutTextBox3 />
         </div>
     )
 };
