@@ -1,16 +1,35 @@
 import { Button, Label, Col, FormGroup } from 'reactstrap';
 import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateContactForm }  from '../utils/validateContactForm';
-import { useRef, useState } from 'react';
+// import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import '../components/ContactForm.css'
+import { useDispatch } from 'react-redux';
+import { postComment } from './commentsSlice';
 
-const ContactForm = () => {
-    const handleSubmitReset = (values, { resetForm }) => {
-        console.log('form values:', values);
-        console.log('in JSON format:', JSON.stringify(values));
+const ContactForm = (id) => {
+
+    const dispatch = useDispatch();
+
+    const handleSubmit = (values, { resetForm }) => {
+        const comment = {
+            firstName: values.firstName,
+            lastName: values.lastName,
+            phoneNum: values.phoneNum,
+            email: values.email,
+            feedback: values.feedback,
+            date: new Date(Date.now()).toISOString()
+        };
+        dispatch(postComment(comment))
         resetForm();
-    }
+    };
+
+
+    // const handleSubmitReset = (values, { resetForm }) => {
+    //     console.log('form values:', values);
+    //     console.log('in JSON format:', JSON.stringify(values));
+    //     resetForm();
+    // }
 
     return (
         <Formik            
@@ -23,7 +42,7 @@ const ContactForm = () => {
                 contactType: 'By Phone',
                 feedback: ''
             }}
-            onSubmit={handleSubmitReset}
+            onSubmit={handleSubmit}
             validate={validateContactForm}            
         >
             <Form className='formBody'>
