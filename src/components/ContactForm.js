@@ -24,7 +24,6 @@ const ContactForm = (id) => {
         resetForm();
     };
 
-
     // const handleSubmitReset = (values, { resetForm }) => {
     //     console.log('form values:', values);
     //     console.log('in JSON format:', JSON.stringify(values));
