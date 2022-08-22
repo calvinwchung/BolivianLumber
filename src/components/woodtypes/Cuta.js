@@ -1,11 +1,11 @@
-import TararaImg from '../app/assets/tarara.png';
+import CutaImg from '../../app/assets/cuta.png'
 import { Col, Row, Container } from 'reactstrap';
-import '../components/WoodList.css';
+import './WoodList.css';
 
-const Tarara = () => {
+const Cuta = () => {
     return (
         <div className="woodImages">
-            <img className='woodImg' src={TararaImg} alt='tarara lumber' />
+            <img className='woodImg' src={CutaImg} alt='cuta lumber' />
             <Container>
             <Row className='align-items-center'>
                 </Row>
@@ -17,32 +17,32 @@ const Tarara = () => {
                     <Col md='7' className=''>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Description</Col>
-                            <Col>Tarara wood is a colorful exotic located in the forests of Brazil and Bolivia. Its heartwood color can be bright yellow to orange with long distinctive streaks of purple, red, and black.</Col>
+                            <Col>The heartwood is often described as lemon yellow and sometimes have a tinge of brown. The sapwood is also yellowish but may be nearly white. Grain: Straight grain and homogenous, with slightly interlocked grain.</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Other Names</Col>
-                            <Col>Centrolobium microchaete, Canary Wood</Col>
+                            <Col>San Domingo Boxwood, Phyllostylon Rhamnoides</Col>
                             
                         </Row>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Origin</Col>
-                            <Col>Bolivia and Brazil, South-America</Col>
+                            <Col>Southern Brazil and Cuba</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Density</Col>
-                            <Col>As Canarywood ages the colors carmelize slowly while losing none of the beautiful wood figure, eventually yielding a more figured teak-like result. Tarara Amarilla is without question one of the most beautiful woods on the planet.</Col>
+                            <Col>The density at a moisture content of u = 12% is specified about 0.90 t/m3 . The wood can be dried only slowly, but then without cracks.</Col>
                             
                         </Row>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Workability</Col>
-                            <Col>Tarara is durable and hard, but also rated as easy to work with, which is why, combined with its inherent attractiveness, it is often a choice for furniture makers. It's grain is irregular and interlocked, and has a lustrous surface with a medium and uniform texture.</Col>
+                            <Col>Easy to work with both hand and machine tools. Also has excellent finishing qualities.</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Durability</Col>
-                            <Col>Janka hardness is 2000 pounds of force. . Drying & shrinkage: It dries at a moderate rate with very little or no warp and shrinkage. Average reported shrinkage values (green to ovendry) are 2.4% radial, 5.6% tangential and 8.4% volumetric. The wood is dimensionally stable.</Col>
+                            <Col>Fine pores, scattered and numerous. Texture is fine and uniform. This species is very high density, resulting in a very hard wood.</Col>
                             
                         </Row>
                     </Col>
@@ -53,4 +53,4 @@ const Tarara = () => {
     );
 }
 
-export default Tarara;
+export default Cuta;

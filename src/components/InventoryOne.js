@@ -1,6 +1,6 @@
 import { Parallax } from 'react-parallax';
 import Wood2 from '../app/assets/wood2.png';
-import '../components/InventoryOne.css';
+import './InventoryOne.css';
 
 const InventoryOne = () => (
     <Parallax className='image' bgImage={Wood2} strength={800}>

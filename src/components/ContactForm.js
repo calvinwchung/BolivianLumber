@@ -3,9 +3,9 @@ import { Formik, Field, Form, ErrorMessage } from 'formik';
 import { validateContactForm }  from '../utils/validateContactForm';
 // import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
-import '../components/ContactForm.css'
+import './ContactForm.css'
 import { useDispatch } from 'react-redux';
-import { postComment } from './commentsSlice';
+import { postComment } from './comments/commentsSlice';
 
 const ContactForm = (id) => {
 

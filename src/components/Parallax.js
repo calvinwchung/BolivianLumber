@@ -1,7 +1,7 @@
 import React from 'react';
 import { Parallax } from 'react-parallax';
 import { Link } from 'react-router-dom';
-import '../components/Parallax.css';
+import './Parallax.css';
 
 const ParallaxScroll = ({picture, name, nav}) => {
   return (

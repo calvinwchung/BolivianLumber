@@ -1,11 +1,11 @@
-import MoradoImg from '../app/assets/morado.png';
+import PauqioImg from '../../app/assets/pauqio.png'
 import { Col, Row, Container } from 'reactstrap';
-import '../components/WoodList.css';
+import './WoodList.css';
 
-const Morado = () => {
+const Pauqio = () => {
     return (
         <div className="woodImages">
-            <img className='woodImg' src={MoradoImg} alt='morado lumber' />
+            <img className='woodImg' src={PauqioImg} alt='pauqio lumber' />
             <Container>
             <Row className='align-items-center'>
                 </Row>
@@ -17,32 +17,32 @@ const Morado = () => {
                     <Col md='7' className=''>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Description</Col>
-                            <Col>Morado, which is also commonly referred to as Bolivian Rosewood, is a wildly beautiful species. The color of its heartwood is highly varied with shades of yellow, brown, red, orange, & violet intermixed with occasional black striping.</Col>
+                            <Col>Jatoba is best knon as “Brazilian Cherry” in the hardwood flooring industry. Other uses include handles and other applications where good shock resistance is needed, steam-bent parts, flooring, turnery, furniture and cabinet work, railroad crossties tree-nails, gear cogs, wheel rims, and other specialty items.</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Other Names</Col>
-                            <Col>Caviuna, pau ferro, capote, siete cueros, cascarón, chiche, tuseque, jacarandá and jacarandá pardo</Col>
+                            <Col>Jatoba, Brazilian Cherry</Col>
                             
                         </Row>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Origin</Col>
-                            <Col>Bolivia and Brazil, South-America</Col>
+                            <Col>Brazil, Peru</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Density</Col>
-                            <Col>The grain is straight to irregular with a fine to coarse texture and a medium to high luster. Density: It is a fairly hard wood. Average reported specific gravity varies from 0.65 to 0.75(ovendry weight/green volume), equal to an air-dried weight of 49 to 57 pcf.</Col>
+                            <Col>Janka scale hardness ranges from 2,350 to 3,290 for dry material</Col>
                             
                         </Row>
                         <Row className='wood1'>
                             <Col className='woodName' sm='2' >Workability</Col>
-                            <Col>Morado is considered overall to be of fair workability, as it can blunt the cutting edges of tools, and any irregular grain has a tendency to tearout during machining operations. Applications: Flooring, decorative veneers, specialty items, cabinet work.</Col>
+                            <Col>Jatoba is moderately difficult to saw and machine largely because of its high density, but except in planing it can be machined to a smooth surface. The wood is somewhat difficult to plane because of the interlocked grain. It is easy to glue and finish satisfactorily; steam-bending properties comparable to white oak</Col>
                             
                         </Row>
                         <Row className='wood'>
                             <Col className='woodName' sm='2' >Durability</Col>
-                            <Col>It is rated as a fairly durable wood. The heartwood is highly resistant to attack by decay fungi. Uses: Morado is primarily used as an alternative to Brazilian rosewood although it is also recognized for its own unique characteristics.</Col>
+                            <Col>Very resistant to brown-rot and white-rot fungi. Heartwood is also rated very resistant to dry-wood termites; little resistance to marine borers</Col>
                             
                         </Row>
                     </Col>
@@ -53,4 +53,4 @@ const Morado = () => {
     );
 }
 
-export default Morado;
+export default Pauqio;
